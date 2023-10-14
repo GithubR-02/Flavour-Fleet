@@ -1,0 +1,233 @@
+#menu-page{
+    height:200vh;
+    background-color: rgb(248, 249, 250);
+}
+
+#menu-back{
+    position:fixed;
+    top:9%;
+    left:-5%;
+    width:50%;
+    height:auto;
+}
+
+#menu{
+    position:absolute;
+    top:9%;
+}
+
+#restaurants-section{
+    clear:both;
+}
+
+#restaurants-section #title{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+    padding:1rem;
+    color: #666;
+    font-family: 'Nunito', sans-serif;
+}
+
+#restaurants-section #title span{
+    color:orangered;
+}
+
+#restaurants{
+    margin-left:17%;
+}
+
+#restaurant-card{
+    text-align:center;
+    overflow:hidden;
+    font-family:'Nunito', sans-serif;
+    background-color:rgba(255, 255, 255, 0.9);
+    position:relative;
+    width:25%;
+    height:50vh;
+    float:left;
+    border:1px solid rgb(158, 141, 141);
+    box-shadow: 1px 1px 5px 5px rgb(231, 226, 226);
+    margin-right:2%;
+    margin-bottom:2%;
+    border-radius:2%;
+}
+
+#restaurant-card #location p{
+    position:absolute;
+    top:5%;
+    left:5%;
+    border:1px solid orangered;
+    border-radius:5%;
+    padding:1%;
+    background-color:orangered;
+    color:white;
+    font-weight:600;
+    display:none;
+}
+
+
+#restaurant-card img{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    padding-top:4%;
+    padding-bottom:20%;
+    margin-top:7%;
+    border:1px solid black;
+    border-radius:2%;
+}
+
+#restaurant-card-desc{
+    position:absolute;
+    top:70%;
+    width:100%;
+    transition:0.5s;
+}
+
+#restaurant-card #desc-title{
+    margin-top:5%;
+}
+
+#restaurant-card #desc-content{
+    display:none;
+}
+
+#restaurant-card #desc-button{
+    margin-left:85px;
+    margin-top:20px;
+    padding:5px 20px 5px 20px;
+    border:2px solid orangered;
+    border-radius:2%;
+    color:orangered;
+    background-color:transparent;
+    display:none;
+    font-weight:600;
+}
+
+#restaurant-card:hover #restaurant-card-desc{
+    background-color:rgba(255, 255, 255, 0.9);
+    transition:0.5s;
+    top:30%;
+    height:100%;
+    border:1px solid tranparent;
+    border-radius:2%;
+}
+
+#restaurant-card:hover #desc-content{
+    display:initial;
+}
+
+#restaurant-card:hover #desc-button{
+    display:block;
+}
+
+#restaurant-card:hover #location p{
+    transition:5s;
+    display:initial;
+}
+
+#restaurant-card #desc-button:hover{
+    background-color:orangered;
+    color:white;
+}
+
+#editors-section{
+    margin-top:2%;
+    clear:both;
+}
+
+#editors-section #title{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+    padding:1rem;
+    color: #666;
+    font-family: 'Nunito', sans-serif;
+}
+
+#editors-section #title span{
+    color:orangered;
+}
+
+#foods{
+    margin-left:17%;
+}
+
+#food-card{
+    overflow:hidden;
+    font-family:'Nunito', sans-serif;
+    background-color:rgba(255, 255, 255, 0.9);
+    position:relative;
+    width:25%;
+    height:40vh;
+    float:left;
+    border:1px solid rgb(158, 141, 141);
+    box-shadow: 1px 1px 5px 5px rgb(231, 226, 226);
+    margin-right:2%;
+    margin-bottom:2%;
+    border-radius:2%;
+    text-align:center;
+}
+
+#food-card #price p{
+    position:absolute;
+    top:5%;
+    left:5%;
+    border:1px solid orangered;
+    border-radius:5%;
+    padding:1%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color:orangered;
+    color:white;
+    font-weight:600;
+}
+
+#food-card img{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    padding-top:4%;
+    padding-bottom:5%;
+    margin-top:7%;
+    border:1px solid black;
+    border-radius:2%;
+}
+
+#food-card-desc{
+    position:absolute;
+    top:-100%;
+    left:0%;
+    padding:20% 2% 2% 2%;
+}
+
+#food-card #desc-button{
+    margin-left:15px;
+    margin-top:20px;
+    padding:5px 20px 5px 20px;
+    border:2px solid orangered;
+    border-radius:2%;
+    color:orangered;
+    background-color:transparent;
+    font-weight:600;
+}
+
+#food-card:hover #food-card-desc{
+    top:0%;
+    border:1px solid transparent;
+    border-radius:2%;
+    transition:0.5s;
+    background-color: rgba(255, 255, 255, 0.9);
+    height:100%;
+}
+
+#food-card:hover #food-card #price p{
+    display:initial;
+}
+
+#food-card #desc-button:hover{
+    background-color:orangered;
+    color:white;
+}
+

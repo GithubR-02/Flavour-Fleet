@@ -1,0 +1,74 @@
+#restaurants-carousel{
+    margin-left:15%;
+    margin-top:5%;
+    width:70%;
+    height:auto;
+}
+
+#restaurants-menu{
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+#menu-item{
+    float:left;
+    width:300px;
+    height:370px;
+    border:1px solid black;
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    font-size:110%;
+    border:1px solid rgb(158, 141, 141);
+    box-shadow: 1px 1px 5px 5px rgb(231, 226, 226);
+}
+
+#menu-item img{
+    margin-top:3%;
+    margin-bottom:5%;
+    width:250px;
+    height:auto;
+}
+
+#menu-item #price{
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+    border:1px solid orangered;
+    border-radius:5px;
+    background-color:orangered;
+    color:white;
+    width:20%;
+}
+
+#menu-item #quantity{
+    display:none;
+    margin-top:4%;
+    margin-left:65%;
+    margin-bottom:2%;
+    border:1px solid orangered;
+    border-radius:15px;
+    background-color:orangered;
+    color:white;
+    width:30%;
+}
+
+#menu-item #quantity button{
+    margin-left:7%;
+    margin-right: 7%;
+    border:1px solid orangered;
+    border-radius:50px;
+    background-color: orangered;
+    color:white;
+}
+
+#menu-item #quantity button:hover{
+    transition:0.5s;
+    background-color:rgb(210, 73, 24);
+}
+
+#menu-item:hover #quantity{
+    display:block;
+}

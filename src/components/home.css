@@ -1,0 +1,428 @@
+
+#hero{
+    position: relative;
+    background-image:url(hero-bg.jpg);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bg2{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#bg3{
+    position:absolute;
+    right:3%;
+    bottom:0;
+    height:68%;
+    width:40%;
+}
+
+#bg4{
+    position:relative;
+    right:-50%;
+    bottom:0;
+}
+
+#caption{
+    position:absolute;
+    width:40%;
+    color: white;
+    top:35%;
+    left:7%;
+}
+
+h1{
+    font-size:48px;
+    font-weight:bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3{
+    color:orange;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#caption button{
+    background-color:orange;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    font-style:bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    border-radius:8px;
+}
+
+#caption button:hover{
+    background-color:white;
+    color:black;
+}
+
+#promo{
+    height:100vh;
+    background-color: rgb(241, 234, 234);
+    padding: 10% 7% 10% 7%;
+}
+
+.card img{
+    height:auto;
+    margin-top:6%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.card-body{
+    color:rgb(111, 106, 106);
+    text-align:center;
+    font-family:sans-serif;
+    font-size:90%;
+    font-weight:300;
+}
+
+.card-title{
+    color:black;
+    font-weight:600;
+    font-size:125%
+}
+
+.card{
+    position: relative;
+    background-color: white;
+    padding: 10px 10px;
+    box-shadow: grey;
+    z-index:1;
+    height:65vh;
+    width:30%;
+    margin:0.5%;
+}
+
+.card-body img{
+    height: auto;
+    width:30%;
+}
+
+.card:after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-color:rgb(148, 24, 24);
+    clip-path: polygon(0 40%,100% 10%,100% 100%,0 100%);
+    transform: scaleY(0.3);
+    transform-origin: bottom;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.card:hover::after {
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    transform: scaleY(1);
+  }
+
+.card:hover{
+    color: white;
+    
+}
+
+.card:hover .card-body{
+    color:white;
+    font-weight: 500;
+}
+
+.card:hover .card-title{
+    color:white;
+    font-size:140%;
+    font-weight:750;
+    font-family: sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.adv{
+    height:85vh;
+    width:100%;
+    background-image:url(hero-bg.jpg);
+    color:white;
+    overflow:hidden;
+}
+
+#banner{
+    width:50%;
+    height:40%;
+    float:left;
+    justify-content: center;
+    padding-top:15%;
+    padding-left:10%;
+    padding-right:4%;
+}
+
+#banner .title{
+    padding-right:10%;
+    font-weight:bold;
+}
+
+#banner .text{
+    padding-top: 5%;
+}
+
+.span{
+    color:orangered;
+}
+
+.hover{
+    height:50px;
+    width:120px;
+    position:relative;
+    z-index:1;
+    background-color:orange;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    overflow:hidden;
+}
+
+.hover::after {
+    position:absolute;
+    content:"";
+    bottom:-1px;
+    left:20px;
+    width:1px;
+    height:1px;
+    background-color: black;
+    border-radius:50%;
+    transform:translate(-50%,51%) scale(var(--scale,1));
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.hover:is(:hover,:focus)::after{--scale:500;}
+
+#delivery-caption{
+    width:60%;
+    padding: 10% 0% 30% 30%;
+    height:100%;
+    float:left;
+    position: relative;
+    animation-duration: 8s;
+    display:none;
+}
+
+.animate #delivery-caption{
+    animation-name: caption;
+    display:initial;
+}
+
+#delivery-image{
+    float:left;
+    height:100%;
+    padding-top:7%;
+    position: relative;
+    animation-duration: 4s;
+    display:none;
+}
+
+.animate #delivery-image{
+    animation-name: delivery;
+    display:initial;
+}
+
+#delivery .animate{
+    display:all;
+}
+
+@keyframes delivery {
+    0%   {left:-50%}
+    100% {left:0%}
+}
+
+@keyframes caption {
+    0%   {left:-50%}
+    100% {left:0%}
+}
+
+#delivery{
+    height:80vh;
+}
+
+
+figure{
+    height:40%;
+    width:50%;
+    float:left;
+}
+
+#pic1{
+    position:relative;
+    width:90%;
+    height:auto;
+    padding-top:20%;
+}
+
+#pic2{
+    position:absolute;
+    width:15%;
+    height:auto;
+    padding-top:5%;
+    left:50%;
+}
+
+#footer{
+    clear:both;
+    padding-left:2%;
+    background-image:url(footer-illustration.png);
+    overflow: hidden;
+    position: relative;
+    padding-block: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    border-block-end: 2px solid rgb(62, 61, 61);
+}
+
+#footer::after {
+    content: url(delivery-boy.svg);
+    position: absolute;
+    bottom: -11px;
+    left: -160px;
+    width: 160px;
+    animation: running-cycle 20s linear infinite;
+  }
+
+  @keyframes running-cycle {
+    0% { left: -160px; }
+    100% { left: 100%; }
+  }
+
+#cont{
+    float:left;
+    width:30%;
+    gap: 30px;
+}
+
+.footer-list{
+    float:left;
+    width:30%;
+}
+
+#footer .logo{
+    text-decoration: none;
+    color: black;
+    font-family:'Rubik', sans-serif;
+    font-weight:bold;
+    font-size: 220%;
+}
+
+#footer p{
+    margin-block: 15px 25px;
+}
+
+#footer li{
+    list-style-type:none;
+}
+
+.social-list {
+    display: flex;
+    gap: 5px;
+  }
+  
+.social-link {
+    border: 1px solid darkorange;
+    border-radius: 10%;
+    background-color: darkorange;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    transition: 1s;
+    color:black;
+  }
+  
+.social-link:is(:hover, :focus) { 
+    background-color: black;
+    color:white;
+}
+
+.footer-list-title {
+    position: relative;
+    max-width: max-content;
+    color: hsl(210, 26%, 7%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-block-end: 20px;
+  }
+  
+  .footer-list-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 105%;
+    background-color: hsl(32, 100%, 59%);
+    width: 40px;
+    height: 4px;
+    border-inline-end: 5px solid hsl(32, 100%, 59%);
+    box-shadow: inset -5px 0 0 white;
+  }
+  
+  .footer-list > li:not(:last-child) { margin-block-end: 15px; }
+  
+  .footer-list address { max-width: 20ch; }
+  
+  .footer-form {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid hsl(0, 0%, 93%);
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  }
+  
+  .input-wrapper {
+    display: grid;
+    gap: 10px;
+    margin-block-end: 10px;
+  }
+  
+  .input-field {
+    color: hsl(0, 0%, 60%);
+    font-size: 1.4rem;
+    border: 1px solid hsl(0, 0%, 93%);
+    padding: 8px 12px;
+  }
+  
+  .input-field::placeholder { color: hsl(0, 0%, 60%); }
+  
+  .input-field::-webkit-calendar-picker-indicator { opacity: 0.5; }
+  
+  textarea.input-field {
+    min-height: 50px;
+    max-height: 150px;
+    height: 100px;
+    resize: vertical;
+    margin-block-end: 10px;
+  }
+  
+  .footer-form .btn {
+    font-size: 15%;
+    --height: 40px;
+    --padding-inline: 25px;
+  }
+  
+  .footer-form .btn:is(:hover, :focus) { background-color: hsl(210, 26%, 7%); }
+  
+  .footer-bottom {
+    padding-block: 20px;
+    text-align: center;
+  }
+  
+  .copyright-link { display: inline-block; }
+  
+  .copyright-link:is(:hover, :focus) { text-decoration: underline; }
+  
+

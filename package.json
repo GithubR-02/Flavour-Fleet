@@ -1,17 +1,26 @@
 {
   "name": "restaurants_app",
   "version": "0.1.0",
+  "homepage": "https://GithubR-02.github.io/Flavour-Fleet",
   "private": true,
   "dependencies": {
+    "@ionic/react": "^7.5.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "mongodb": "^5.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.2",
     "react-scripts": "5.0.1",
+    "react-svg": "^16.1.29",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "react-router-dom": "^6.14.1"
   }
 }
