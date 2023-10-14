@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Flavour-Fleet/static/css/main.4843b5d2.css",
-    "main.js": "/Flavour-Fleet/static/js/main.ce920737.js",
+    "main.js": "/Flavour-Fleet/static/js/main.f3730059.js",
     "static/js/787.c6e6852e.chunk.js": "/Flavour-Fleet/static/js/787.c6e6852e.chunk.js",
     "static/media/rest_img.jpg": "/Flavour-Fleet/static/media/rest_img.a7a3e696128477322b94.jpg",
     "static/media/promo1.png": "/Flavour-Fleet/static/media/promo1.574d9ce4d9d642d54367.png",
@@ -19,11 +19,11 @@
     "static/media/hero-banner-bg.png": "/Flavour-Fleet/static/media/hero-banner-bg.292e488111147a9bb3a3.png",
     "index.html": "/Flavour-Fleet/index.html",
     "main.4843b5d2.css.map": "/Flavour-Fleet/static/css/main.4843b5d2.css.map",
-    "main.ce920737.js.map": "/Flavour-Fleet/static/js/main.ce920737.js.map",
+    "main.f3730059.js.map": "/Flavour-Fleet/static/js/main.f3730059.js.map",
     "787.c6e6852e.chunk.js.map": "/Flavour-Fleet/static/js/787.c6e6852e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4843b5d2.css",
-    "static/js/main.ce920737.js"
+    "static/js/main.f3730059.js"
   ]
 }
