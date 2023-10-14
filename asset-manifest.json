@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Flavour-Fleet/static/css/main.4843b5d2.css",
+    "main.js": "/Flavour-Fleet/static/js/main.ce920737.js",
+    "static/js/787.c6e6852e.chunk.js": "/Flavour-Fleet/static/js/787.c6e6852e.chunk.js",
+    "static/media/rest_img.jpg": "/Flavour-Fleet/static/media/rest_img.a7a3e696128477322b94.jpg",
+    "static/media/promo1.png": "/Flavour-Fleet/static/media/promo1.574d9ce4d9d642d54367.png",
+    "static/media/promo4.png": "/Flavour-Fleet/static/media/promo4.579d1046844f827fff16.png",
+    "static/media/promo5.png": "/Flavour-Fleet/static/media/promo5.477dc8e051ddbc3fc6d1.png",
+    "static/media/Menu_back.jpeg": "/Flavour-Fleet/static/media/Menu_back.5a60d18659610115f650.jpeg",
+    "static/media/promo3.png": "/Flavour-Fleet/static/media/promo3.ab81efddb0f0b155a199.png",
+    "static/media/hero-banner.png": "/Flavour-Fleet/static/media/hero-banner.17c0656b674bd668e381.png",
+    "static/media/cta-banner.png": "/Flavour-Fleet/static/media/cta-banner.f1083ddef9c41ac22df1.png",
+    "static/media/promo2.png": "/Flavour-Fleet/static/media/promo2.1a1b8c74f96684f77fc4.png",
+    "static/media/hero-bg.jpg": "/Flavour-Fleet/static/media/hero-bg.e198b8123a6b6c8cd008.jpg",
+    "static/media/hero-bg-shape.png": "/Flavour-Fleet/static/media/hero-bg-shape.1edfacd791a64907090e.png",
+    "static/media/footer-illustration.png": "/Flavour-Fleet/static/media/footer-illustration.f0638e7df55d59e35726.png",
+    "static/media/delivery-boy.svg": "/Flavour-Fleet/static/media/delivery-boy.5ad87423edd187c41d478afeb15aa543.svg",
+    "static/media/hero-banner-bg.png": "/Flavour-Fleet/static/media/hero-banner-bg.292e488111147a9bb3a3.png",
+    "index.html": "/Flavour-Fleet/index.html",
+    "main.4843b5d2.css.map": "/Flavour-Fleet/static/css/main.4843b5d2.css.map",
+    "main.ce920737.js.map": "/Flavour-Fleet/static/js/main.ce920737.js.map",
+    "787.c6e6852e.chunk.js.map": "/Flavour-Fleet/static/js/787.c6e6852e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4843b5d2.css",
+    "static/js/main.ce920737.js"
+  ]
+}
