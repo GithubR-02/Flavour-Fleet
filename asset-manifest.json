@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/Flavour-Fleet/static/css/main.d0685092.css",
-    "main.js": "/Flavour-Fleet/static/js/main.eb1193c4.js",
+    "main.css": "/Flavour-Fleet/static/css/main.19fd859c.css",
+    "main.js": "/Flavour-Fleet/static/js/main.724f6de6.js",
     "static/js/787.c6e6852e.chunk.js": "/Flavour-Fleet/static/js/787.c6e6852e.chunk.js",
-    "static/media/rest_img.jpg": "/Flavour-Fleet/static/media/rest_img.a7a3e696128477322b94.jpg",
     "static/media/promo1.png": "/Flavour-Fleet/static/media/promo1.574d9ce4d9d642d54367.png",
     "static/media/promo4.png": "/Flavour-Fleet/static/media/promo4.579d1046844f827fff16.png",
     "static/media/promo5.png": "/Flavour-Fleet/static/media/promo5.477dc8e051ddbc3fc6d1.png",
-    "static/media/Menu_back.jpeg": "/Flavour-Fleet/static/media/Menu_back.5a60d18659610115f650.jpeg",
     "static/media/promo3.png": "/Flavour-Fleet/static/media/promo3.ab81efddb0f0b155a199.png",
     "static/media/hero-banner.png": "/Flavour-Fleet/static/media/hero-banner.17c0656b674bd668e381.png",
     "static/media/cta-banner.png": "/Flavour-Fleet/static/media/cta-banner.f1083ddef9c41ac22df1.png",
@@ -18,12 +16,12 @@
     "static/media/delivery-boy.svg": "/Flavour-Fleet/static/media/delivery-boy.5ad87423edd187c41d478afeb15aa543.svg",
     "static/media/hero-banner-bg.png": "/Flavour-Fleet/static/media/hero-banner-bg.292e488111147a9bb3a3.png",
     "index.html": "/Flavour-Fleet/index.html",
-    "main.d0685092.css.map": "/Flavour-Fleet/static/css/main.d0685092.css.map",
-    "main.eb1193c4.js.map": "/Flavour-Fleet/static/js/main.eb1193c4.js.map",
+    "main.19fd859c.css.map": "/Flavour-Fleet/static/css/main.19fd859c.css.map",
+    "main.724f6de6.js.map": "/Flavour-Fleet/static/js/main.724f6de6.js.map",
     "787.c6e6852e.chunk.js.map": "/Flavour-Fleet/static/js/787.c6e6852e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0685092.css",
-    "static/js/main.eb1193c4.js"
+    "static/css/main.19fd859c.css",
+    "static/js/main.724f6de6.js"
   ]
 }
